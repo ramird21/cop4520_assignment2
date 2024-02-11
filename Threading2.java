@@ -1,6 +1,14 @@
 import java.util.Scanner;
 
-class Threading2
+class actualThreading extends Thread
+{
+    public void run()
+    {
+
+    }
+}
+
+public class Threading2
 {
     public static void main(String [] args)
     {
@@ -12,6 +20,13 @@ class Threading2
 
         N = sc.nextInt();
 
+        // This is maybe the infrastructure things will have
+        // for (int i = 0; i < N; i++)
+        // {
+        //     actualThreading t = new actualThreading();
+
+        //     t.start();
+        // }
         
     }
 }
