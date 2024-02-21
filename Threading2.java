@@ -1,12 +1,14 @@
 import java.util.Scanner;
 
-class actualThreading extends Thread
+class Guest extends Thread
 {
     public void run()
     {
-
+        
     }
 }
+
+// Maybe come up with more classes to handle some stuff ????
 
 public class Threading2
 {
@@ -19,6 +21,9 @@ public class Threading2
         System.out.print("Please specify N (Number of guests): ");
 
         N = sc.nextInt();
+
+        // Create guests threads...
+        Guest [] guests = new Guest [N];
 
         // This is maybe the infrastructure things will have
         // for (int i = 0; i < N; i++)
